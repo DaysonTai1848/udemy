@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 
 const Topnav = () => {
   return (
-    <div className="flex flex-row py-3 px-5 justify-between shadow-md border items-center">
+    <div className="flex flex-row py-3 px-5 justify-between shadow-md border space-x-4 items-center">
       <UdemyLogo />
       <SearchBar />
       <LoginButton />
