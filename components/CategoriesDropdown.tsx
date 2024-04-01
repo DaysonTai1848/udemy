@@ -15,8 +15,24 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
+import { Button } from "@/components/ui/button";
+
 const CategoriesDropdown = () => {
-  return <div className="relative">hii</div>;
+  return (
+    <div className="relative">
+      {/* <Button variant="outline">Button</Button> */}
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <NavigationMenuLink>Link</NavigationMenuLink>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+    </div>
+  );
 };
 
 export default CategoriesDropdown;
