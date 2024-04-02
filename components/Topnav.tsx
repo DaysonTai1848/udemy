@@ -4,6 +4,7 @@ import SignUpButton from "./SignUpButton";
 import UdemyLogo from "./UdemyLogo";
 import SearchBar from "./SearchBar";
 import CategoriesDropdown from "./CategoriesDropdown";
+import Dropdowns from "./Dropdowns";
 
 const Topnav = () => {
   return (
@@ -11,6 +12,7 @@ const Topnav = () => {
       <UdemyLogo />
       <CategoriesDropdown />
       <SearchBar />
+      <Dropdowns />
       <LoginButton />
       <SignUpButton />
     </div>
